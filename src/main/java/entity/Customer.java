@@ -11,11 +11,11 @@ import javax.persistence.Id;
 @Setter
 @Getter
 @ToString
-@Entity
+@Entity(name = "customer_detail")//change entity name
 public class Customer {
     @Id
     private String id;
-
+    @Column(name = "customer_name")//change coloumn name
     private  String name;
     private   String address;
 
