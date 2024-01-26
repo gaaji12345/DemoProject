@@ -14,7 +14,12 @@ public class Get {
         Session session = FactoryConfiguration.getInstance().getSession();
         Transaction transaction = session.beginTransaction();
      Customer c=  session.get(Customer.class,"C001");//get C001 Ob
-        System.out.println(c);
+        //System.out.println(c); get All info
+
+        //* get one by one
+        System.out.println(c.getAddress());
+        System.out.println(c.getId());
+        System.out.println(c.getTel());
 
 
         transaction.commit();
