@@ -14,7 +14,7 @@ public class Frist {
 
         Customer c1=new Customer();
         c1.setId("C001");
-        c1.setName(name);
+        c1.setName(name);//pass Name ob
         c1.setAddress("gaale");
         c1.setTel(712304934);
 
