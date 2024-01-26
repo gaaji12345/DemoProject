@@ -13,7 +13,15 @@ public class Delete {
 
         Session session = FactoryConfiguration.getInstance().getSession();
         Transaction transaction = session.beginTransaction();
+        //1st way
         session.delete(c1);
+
+        //2nd way
+
+     Customer c=session.get(Customer.class,"C002");
+        session.delete(c);
+
+
         transaction.commit();
         session.close();
     }
