@@ -7,7 +7,7 @@ public class Get {
     public static void main(String[] args) {
         Customer c1=new Customer();
         c1.setId("C001");
-        c1.setName("gaaji");
+     //   c1.setName("gaaji");
         c1.setAddress("gaale");
         c1.setTel(712304934);
 
