@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a90b90e-14fb-4ff3-ac5c-aa8f6c503eae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/OneToOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneToMany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/util/FactoryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/FactoryConfiguration.java" afterDir="false" />
@@ -75,7 +76,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.OneToOne">
+  <component name="RunManager" selected="Application.OneToMany">
     <configuration name="Delete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Delete" />
       <module name="Main2" />
@@ -97,6 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OneToMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OneToMany" />
+      <module name="Main2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OneToOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OneToOne" />
       <module name="Main2" />
@@ -104,20 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Update" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Update" />
-      <module name="Main2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OneToMany" />
         <item itemvalue="Application.OneToOne" />
         <item itemvalue="Application.Frist" />
         <item itemvalue="Application.Delete" />
         <item itemvalue="Application.Get" />
-        <item itemvalue="Application.Update" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +133,7 @@
       <workItem from="1705747458469" duration="731000" />
       <workItem from="1705748563910" duration="21000" />
       <workItem from="1706257579338" duration="3236000" />
-      <workItem from="1706409084179" duration="1034000" />
+      <workItem from="1706409084179" duration="3182000" />
     </task>
     <task id="LOCAL-00001" summary="FC">
       <option name="closed" value="true" />
@@ -238,7 +239,31 @@
       <option name="project" value="LOCAL" />
       <updated>1706261448370</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="OnetoOne-&gt;Realtion">
+      <option name="closed" value="true" />
+      <created>1706410491173</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706410491173</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Two ENtites desgin">
+      <option name="closed" value="true" />
+      <created>1706410539367</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706410539367</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add Two Anotation Class">
+      <option name="closed" value="true" />
+      <created>1706410572968</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1706410572968</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +283,9 @@
     <MESSAGE value="delete 2nd way" />
     <MESSAGE value="use @Emberded Anotaion" />
     <MESSAGE value="full set name" />
-    <option name="LAST_COMMIT_MESSAGE" value="full set name" />
+    <MESSAGE value="OnetoOne-&gt;Realtion" />
+    <MESSAGE value="Two ENtites desgin" />
+    <MESSAGE value="add Two Anotation Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Two Anotation Class" />
   </component>
 </project>
