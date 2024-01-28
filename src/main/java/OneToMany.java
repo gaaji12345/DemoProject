@@ -25,11 +25,16 @@ public class OneToMany {
         p2.setOwner(o1);
 
         //1st methology
-        ArrayList<Pet> petArrayList=new ArrayList<>();
+       /* ArrayList<Pet> petArrayList=new ArrayList<>();
         petArrayList.add(p1);
         petArrayList.add(p2);
 
-        o1.setPets(petArrayList);
+        o1.setPets(petArrayList);*/
+
+        //2nd methology
+
+        o1.getPets().add(p1);
+        o1.getPets().add(p2);
 
 
 
