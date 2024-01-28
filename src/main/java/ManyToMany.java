@@ -26,7 +26,7 @@ public class ManyToMany {
         s2.setSname("ORM");
 
         //1st methology
-        ArrayList<Subject>subjectArrayList=new ArrayList<>();
+      /*  ArrayList<Subject>subjectArrayList=new ArrayList<>();
         subjectArrayList.add(s1);
         subjectArrayList.add(s2);
 
@@ -38,7 +38,15 @@ public class ManyToMany {
         l2.setSubjectList(subjectArrayList);
 
         s1.setLectureList(lectureArrayList);
-        s2.setLectureList(lectureArrayList);
+        s2.setLectureList(lectureArrayList);*/
+
+
+        //2nd way
+        l1.getSubjectList().add(s1);
+        l1.getSubjectList().add(s2);
+
+        s1.getLectureList().add(l1);
+        s2.getLectureList().add(l1);
 
 
 
