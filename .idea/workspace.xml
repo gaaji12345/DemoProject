@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a90b90e-14fb-4ff3-ac5c-aa8f6c503eae" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/OneToMany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OneToMany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ManyToMany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Lecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/util/FactoryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/FactoryConfiguration.java" afterDir="false" />
     </list>
@@ -72,7 +75,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.OneToMany">
+  <component name="RunManager" selected="Application.ManyToMany">
     <configuration name="Delete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Delete" />
       <module name="Main2" />
@@ -87,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Get" />
+    <configuration name="ManyToMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ManyToMany" />
       <module name="Main2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ManyToMany" />
         <item itemvalue="Application.OneToMany" />
         <item itemvalue="Application.OneToOne" />
         <item itemvalue="Application.Frist" />
         <item itemvalue="Application.Delete" />
-        <item itemvalue="Application.Get" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +132,7 @@
       <workItem from="1705747458469" duration="731000" />
       <workItem from="1705748563910" duration="21000" />
       <workItem from="1706257579338" duration="3236000" />
-      <workItem from="1706409084179" duration="4175000" />
+      <workItem from="1706409084179" duration="6025000" />
     </task>
     <task id="LOCAL-00001" summary="FC">
       <option name="closed" value="true" />
@@ -275,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706412825741</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="2Way to get one to may">
+      <option name="closed" value="true" />
+      <created>1706416228862</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706416228862</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +311,7 @@
     <MESSAGE value="add Two Anotation Class" />
     <MESSAGE value="add two entity" />
     <MESSAGE value="OneToMany performance" />
-    <option name="LAST_COMMIT_MESSAGE" value="OneToMany performance" />
+    <MESSAGE value="2Way to get one to may" />
+    <option name="LAST_COMMIT_MESSAGE" value="2Way to get one to may" />
   </component>
 </project>

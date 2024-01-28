@@ -1,5 +1,6 @@
 package entity;
 
+import embered.Name;
 import lombok.*;
 
 import javax.persistence.Column;
@@ -16,7 +17,7 @@ public class Customer {
     @Id
     private String id;
     @Column(name = "customer_name")//change coloumn name
-    private  String name;
+    private Name name;
     private   String address;
 
     private int tel;
