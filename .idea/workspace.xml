@@ -133,7 +133,7 @@
       <workItem from="1705748563910" duration="21000" />
       <workItem from="1706257579338" duration="3236000" />
       <workItem from="1706409084179" duration="7092000" />
-      <workItem from="1706580507455" duration="5799000" />
+      <workItem from="1706580507455" duration="6982000" />
     </task>
     <task id="LOCAL-00001" summary="FC">
       <option name="closed" value="true" />
@@ -367,14 +367,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706588707424</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="use HQL Ineer join Claues">
+      <option name="closed" value="true" />
+      <created>1706590364362</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1706590364362</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="xml-orm" />
     <MESSAGE value="create customer table" />
     <MESSAGE value="change table name and column name" />
     <MESSAGE value="update" />
@@ -397,22 +404,28 @@
     <MESSAGE value="use HQL for sepecified coloumn=from" />
     <MESSAGE value="use HQL to where clause" />
     <MESSAGE value="use HQL Update Claues" />
-    <MESSAGE value="use HQL orderby Claues" />
     <MESSAGE value="use HQL Delete Claues" />
-    <option name="LAST_COMMIT_MESSAGE" value="use HQL Delete Claues" />
+    <MESSAGE value="use HQL orderby Claues" />
+    <MESSAGE value="use HQL Ineer join Claues" />
+    <option name="LAST_COMMIT_MESSAGE" value="use HQL Ineer join Claues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Hql.java</url>
-          <line>14</line>
+          <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Hql.java</url>
-          <line>40</line>
+          <line>43</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Hql.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

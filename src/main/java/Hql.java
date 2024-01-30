@@ -1,7 +1,10 @@
 import entity.Laptop;
 import entity.Lecture;
+import entity.Owner;
+import entity.Student;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.hibernate.query.NativeQuery;
 import org.hibernate.query.Query;
 import util.FactoryConfiguration;
 
@@ -90,12 +93,22 @@ public class Hql {
 
         //--INER JOIN--//
 
-        String hql="SELECT o.oId,o.name,p.pId,p.name FROM Owner o INNER JOIN Pet p ON  o.oId=p.owner";
+       /* String hql="SELECT o.oId,o.name,p.pId,p.name FROM Owner o INNER JOIN Pet p ON  o.oId=p.owner";
         List <Object[]> list = session.createQuery(hql).list();
         for (Object[] obj: list
              ) {
             System.out.println(obj[0]+" "+obj[1]+""+obj[2]);
 
+        }*/
+        //--sql--//
+        String sql ="SELECT * FROM  Student ";
+        NativeQuery sqlQuery = session.createSQLQuery(sql);
+        sqlQuery.addEntity(Student.class);
+        List<Student> list = sqlQuery.list();
+
+        for (Student o1:list
+             ) {
+            System.out.println(o1.getSId()+" "+o1.getName());
 
         }
 
