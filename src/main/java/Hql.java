@@ -71,7 +71,7 @@ public class Hql {
 
         }*/
         //UPDATE CLUASE->
-            String id="l003";
+          /*  String id="l003";
             String name="Apple";
             String hql="UPDATE Laptop  SET name= :l_name where lId = :lap_id";
         Query query = session.createQuery(hql);
@@ -79,7 +79,14 @@ public class Hql {
         query.setParameter("lap_id",id);
 
         int  raw = query.executeUpdate();
-        System.out.println(raw >0 ?"HUREEE":"OOPS NO");
+        System.out.println(raw >0 ?"HUREEE":"OOPS NO");*/
+
+        String id="l003";
+        String hql="DELETE FROM Laptop WHERE lId= :lap_id";
+
+        Query query = session.createQuery(hql);
+        query.setParameter("lap_id",id);
+        System.out.println(query.executeUpdate() >0 ?"DELLETED" :"OOPS NO");
 
 
 

@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a90b90e-14fb-4ff3-ac5c-aa8f6c503eae" name="Changes" comment="use HQL orderby Claues">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Hql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hql.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/OneToOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OneToOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Laptop.java" afterDir="false" />
@@ -73,7 +72,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OneToOne">
+  <component name="RunManager" selected="Application.Hql">
     <configuration name="Frist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Frist" />
       <module name="Main2" />
@@ -111,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OneToOne" />
         <item itemvalue="Application.Hql" />
+        <item itemvalue="Application.OneToOne" />
         <item itemvalue="Application.ManyToMany" />
         <item itemvalue="Application.OneToMany" />
         <item itemvalue="Application.Frist" />
@@ -131,7 +130,7 @@
       <workItem from="1705748563910" duration="21000" />
       <workItem from="1706257579338" duration="3236000" />
       <workItem from="1706409084179" duration="7092000" />
-      <workItem from="1706580507455" duration="4524000" />
+      <workItem from="1706580507455" duration="4907000" />
     </task>
     <task id="LOCAL-00001" summary="FC">
       <option name="closed" value="true" />
@@ -349,14 +348,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706583160515</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="use HQL Update Claues">
+      <option name="closed" value="true" />
+      <created>1706588382189</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1706588382189</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="FactoryConfiguration" />
     <MESSAGE value="Customer entity" />
     <MESSAGE value="xml-orm" />
     <MESSAGE value="create customer table" />
@@ -381,7 +387,8 @@
     <MESSAGE value="use HQL for sepecified coloumn=from" />
     <MESSAGE value="use HQL to where clause" />
     <MESSAGE value="use HQL orderby Claues" />
-    <option name="LAST_COMMIT_MESSAGE" value="use HQL orderby Claues" />
+    <MESSAGE value="use HQL Update Claues" />
+    <option name="LAST_COMMIT_MESSAGE" value="use HQL Update Claues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
