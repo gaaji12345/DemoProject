@@ -13,7 +13,7 @@ public class Hql {
 
         //---HQL---USE--//
 
-        String hql="FROM Laptop ";
+      /*  String hql="FROM Laptop ";
         Query query = session.createQuery(hql);
         List<Laptop>lplist=query.list();
 
@@ -21,6 +21,17 @@ public class Hql {
              ) {
             System.out.println(l1.getLId()+" "+ l1.getName()+" "+l1.getStudent());
             System.out.println(l1);
+
+        }*/
+        //select sepecfied coloumn
+
+        String hql="SELECT name FROM Laptop";
+        Query query = session.createQuery(hql);
+        List <String> namelist = query.list();
+
+        for (String name:namelist
+             ) {
+            System.out.println(name);
 
         }
 
