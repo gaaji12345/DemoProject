@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a90b90e-14fb-4ff3-ac5c-aa8f6c503eae" name="Changes" comment="">
+    <list default="true" id="8a90b90e-14fb-4ff3-ac5c-aa8f6c503eae" name="Changes" comment="use HQL orderby Claues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Hql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hql.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/OneToOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OneToOne.java" afterDir="false" />
@@ -73,7 +73,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Hql">
+  <component name="RunManager" selected="Application.OneToOne">
     <configuration name="Frist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Frist" />
       <module name="Main2" />
@@ -111,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Hql" />
         <item itemvalue="Application.OneToOne" />
+        <item itemvalue="Application.Hql" />
         <item itemvalue="Application.ManyToMany" />
         <item itemvalue="Application.OneToMany" />
         <item itemvalue="Application.Frist" />
@@ -131,7 +131,7 @@
       <workItem from="1705748563910" duration="21000" />
       <workItem from="1706257579338" duration="3236000" />
       <workItem from="1706409084179" duration="7092000" />
-      <workItem from="1706580507455" duration="1935000" />
+      <workItem from="1706580507455" duration="4524000" />
     </task>
     <task id="LOCAL-00001" summary="FC">
       <option name="closed" value="true" />
@@ -333,14 +333,29 @@
       <option name="project" value="LOCAL" />
       <updated>1706582180639</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="use HQL to where clause">
+      <option name="closed" value="true" />
+      <created>1706582634844</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1706582634844</updated>
+    </task>
+    <task id="LOCAL-00027" summary="use HQL orderby Claues">
+      <option name="closed" value="true" />
+      <created>1706583160515</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1706583160515</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="FC" />
     <MESSAGE value="FactoryConfiguration" />
     <MESSAGE value="Customer entity" />
     <MESSAGE value="xml-orm" />
@@ -364,15 +379,22 @@
     <MESSAGE value="2nd way" />
     <MESSAGE value="use HQL to getAll" />
     <MESSAGE value="use HQL for sepecified coloumn=from" />
-    <option name="LAST_COMMIT_MESSAGE" value="use HQL for sepecified coloumn=from" />
+    <MESSAGE value="use HQL to where clause" />
+    <MESSAGE value="use HQL orderby Claues" />
+    <option name="LAST_COMMIT_MESSAGE" value="use HQL orderby Claues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Hql.java</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Hql.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

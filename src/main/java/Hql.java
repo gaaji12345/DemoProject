@@ -49,13 +49,38 @@ public class Hql {
         }*/
         //ORDER BY Cluase
 
-        String hql="FROM Laptop l ORDER BY l.lId desc ";
+       /* String hql="FROM Laptop l ORDER BY l.lId desc ";
         List<Laptop> list = session.createQuery(hql).list();
         for (Laptop l1: list
              ) {
             System.out.println(l1.getLId()+" "+ l1.getName()+" "+l1.getStudent());
 
-        }
+        }*/
+
+        //----Using name Parametter--//
+
+       /* String name="Appple";
+        String hql="FROM Laptop where name= :lp_name";
+        Query query = session.createQuery(hql);
+        query.setParameter("lp_name",name);
+        List<Laptop> list = query.list();
+
+        for (Laptop l1: list
+             ) {
+            System.out.println(l1.getLId()+" "+ l1.getName()+" "+l1.getStudent());
+
+        }*/
+        //UPDATE CLUASE->
+            String id="l003";
+            String name="Apple";
+            String hql="UPDATE Laptop  SET name= :l_name where lId = :lap_id";
+        Query query = session.createQuery(hql);
+        query.setParameter("l_name",name);
+        query.setParameter("lap_id",id);
+
+        int  raw = query.executeUpdate();
+        System.out.println(raw >0 ?"HUREEE":"OOPS NO");
+
 
 
         transaction.commit();
