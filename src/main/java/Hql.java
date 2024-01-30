@@ -12,8 +12,8 @@ import java.util.List;
 
 public class Hql {
     public static void main(String[] args) {
-        Session session = FactoryConfiguration.getInstance().getSession();
-        Transaction transaction = session.beginTransaction();
+        Session s1 = FactoryConfiguration.getInstance().getSession();
+        Transaction transaction = s1.beginTransaction();
 
         //---HQL---USE--//
 
@@ -101,7 +101,7 @@ public class Hql {
 
         }*/
         //--sql--//
-        String sql ="SELECT * FROM  Student ";
+       /* String sql ="SELECT * FROM  Student ";
         NativeQuery sqlQuery = session.createSQLQuery(sql);
         sqlQuery.addEntity(Student.class);
         List<Student> list = sqlQuery.list();
@@ -110,10 +110,33 @@ public class Hql {
              ) {
             System.out.println(o1.getSId()+" "+o1.getName());
 
-        }
+        }*/
+
+
+        //---Frist level Caching--//
+
+        Student o1=s1.get(Student.class,"S003");
+        System.out.println(o1);
+
+        Student o2=s1.get(Student.class,"S003");
+        System.out.println(o2);
+
+
 
 
         transaction.commit();
-        session.close();
+        s1.close();
+
+
+        Session s2 = FactoryConfiguration.getInstance().getSession();
+        Transaction transaction1 = s2.beginTransaction();
+
+
+        Student s3=  s2.get(Student.class,"S003");
+        System.out.println("s2 session :"+s3);
+
+
+        transaction1.commit();
+        s2.close();
     }
 }

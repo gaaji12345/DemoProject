@@ -52,29 +52,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Hql">
     <configuration name="Frist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Frist" />
@@ -133,7 +133,8 @@
       <workItem from="1705748563910" duration="21000" />
       <workItem from="1706257579338" duration="3236000" />
       <workItem from="1706409084179" duration="7092000" />
-      <workItem from="1706580507455" duration="6982000" />
+      <workItem from="1706580507455" duration="7229000" />
+      <workItem from="1706599331536" duration="734000" />
     </task>
     <task id="LOCAL-00001" summary="FC">
       <option name="closed" value="true" />
@@ -375,14 +376,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706590364362</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="sql to hql p:">
+      <option name="closed" value="true" />
+      <created>1706591512505</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1706591512505</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create customer table" />
     <MESSAGE value="change table name and column name" />
     <MESSAGE value="update" />
     <MESSAGE value="get info" />
@@ -405,9 +413,10 @@
     <MESSAGE value="use HQL to where clause" />
     <MESSAGE value="use HQL Update Claues" />
     <MESSAGE value="use HQL Delete Claues" />
-    <MESSAGE value="use HQL orderby Claues" />
     <MESSAGE value="use HQL Ineer join Claues" />
-    <option name="LAST_COMMIT_MESSAGE" value="use HQL Ineer join Claues" />
+    <MESSAGE value="use HQL orderby Claues" />
+    <MESSAGE value="sql to hql p:" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql to hql p:" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -426,6 +435,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Hql.java</url>
           <line>12</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Hql.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
