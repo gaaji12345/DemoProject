@@ -81,13 +81,23 @@ public class Hql {
         int  raw = query.executeUpdate();
         System.out.println(raw >0 ?"HUREEE":"OOPS NO");*/
 
-        String id="l003";
+      /*  String id="l003";
         String hql="DELETE FROM Laptop WHERE lId= :lap_id";
 
         Query query = session.createQuery(hql);
         query.setParameter("lap_id",id);
-        System.out.println(query.executeUpdate() >0 ?"DELLETED" :"OOPS NO");
+        System.out.println(query.executeUpdate() >0 ?"DELLETED" :"OOPS NO");*/
 
+        //--INER JOIN--//
+
+        String hql="SELECT o.oId,o.name,p.pId,p.name FROM Owner o INNER JOIN Pet p ON  o.oId=p.owner";
+        List <Object[]> list = session.createQuery(hql).list();
+        for (Object[] obj: list
+             ) {
+            System.out.println(obj[0]+" "+obj[1]+""+obj[2]);
+
+
+        }
 
 
         transaction.commit();
