@@ -36,15 +36,24 @@ public class Hql {
 
         }*/
         //WHERE CLAUSE
-        String hql="FROM Laptop WHERE name LIKE 'D%'";
+       // String hql="FROM Laptop WHERE name LIKE 'D%'";
 
       //  Query query = session.createQuery(hql);
        // List<Laptop> list = query.list();
-        List<Laptop> list = session.createQuery(hql).list();
+      /*  List<Laptop> list = session.createQuery(hql).list();
         for (Laptop l1: list
              ) {
             System.out.println(l1.getLId()+" "+ l1.getName()+" "+l1.getStudent());
 
+
+        }*/
+        //ORDER BY Cluase
+
+        String hql="FROM Laptop l ORDER BY l.lId desc ";
+        List<Laptop> list = session.createQuery(hql).list();
+        for (Laptop l1: list
+             ) {
+            System.out.println(l1.getLId()+" "+ l1.getName()+" "+l1.getStudent());
 
         }
 
