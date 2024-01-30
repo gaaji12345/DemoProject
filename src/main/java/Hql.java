@@ -1,4 +1,5 @@
 import entity.Laptop;
+import entity.Lecture;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
@@ -25,13 +26,25 @@ public class Hql {
         }*/
         //select sepecfied coloumn
 
-        String hql="SELECT name FROM Laptop";
+       /* String hql="SELECT name FROM Laptop";
         Query query = session.createQuery(hql);
         List <String> namelist = query.list();
 
         for (String name:namelist
              ) {
             System.out.println(name);
+
+        }*/
+        //WHERE CLAUSE
+        String hql="FROM Laptop WHERE name LIKE 'D%'";
+
+      //  Query query = session.createQuery(hql);
+       // List<Laptop> list = query.list();
+        List<Laptop> list = session.createQuery(hql).list();
+        for (Laptop l1: list
+             ) {
+            System.out.println(l1.getLId()+" "+ l1.getName()+" "+l1.getStudent());
+
 
         }
 
