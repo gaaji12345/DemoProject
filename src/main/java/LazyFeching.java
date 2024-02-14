@@ -29,10 +29,15 @@ public class LazyFeching {
         Transaction transaction = session.beginTransaction();
 
      //Lazy Fetching
-        Owner o1=session.get(Owner.class,"0001");
-        System.out.println(o1.getOId()+" "+o1.getName());
 
-        System.out.println(o1.getPets());
+        //1st methology from for fecthing data from table
+//      Man man=session.get(Man.class,"M001"); //query has exectued
+//       System.out.println(man.getMId());
+
+        //2nd methology from for fecthing data from table
+
+        Man man1=session.load(Man.class,"M002");//query not exectued
+        System.out.println(man1.getMId());
 
 
 
