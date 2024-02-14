@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a90b90e-14fb-4ff3-ac5c-aa8f6c503eae" name="Changes" comment="use HQL orderby Claues">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LazyFeching.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Hql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hql.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/OneToOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OneToOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Man.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Owner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Women.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Women.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/FactoryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/FactoryConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +81,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Hql">
+  <component name="RunManager" selected="Application.LazyFeching">
     <configuration name="Frist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Frist" />
       <module name="Main2" />
@@ -90,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManyToMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ManyToMany" />
+    <configuration name="LazyFeching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LazyFeching" />
       <module name="Main2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LazyFeching" />
         <item itemvalue="Application.Hql" />
+        <item itemvalue="Application.Frist" />
         <item itemvalue="Application.OneToMany" />
         <item itemvalue="Application.OneToOne" />
-        <item itemvalue="Application.ManyToMany" />
-        <item itemvalue="Application.Frist" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +140,16 @@
       <workItem from="1706257579338" duration="3236000" />
       <workItem from="1706409084179" duration="7092000" />
       <workItem from="1706580507455" duration="7229000" />
-      <workItem from="1706599331536" duration="734000" />
+      <workItem from="1706599331536" duration="1813000" />
+      <workItem from="1706609701360" duration="1804000" />
+      <workItem from="1706631552756" duration="24000" />
+      <workItem from="1706791328787" duration="839000" />
+      <workItem from="1706797614973" duration="11000" />
+      <workItem from="1706797639651" duration="3000" />
+      <workItem from="1706797663590" duration="4000" />
+      <workItem from="1706933347711" duration="8000" />
+      <workItem from="1707387199418" duration="1000" />
+      <workItem from="1707875319234" duration="2814000" />
     </task>
     <task id="LOCAL-00001" summary="FC">
       <option name="closed" value="true" />
@@ -384,15 +399,29 @@
       <option name="project" value="LOCAL" />
       <updated>1706591512505</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="1st level caching">
+      <option name="closed" value="true" />
+      <created>1706600213651</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1706600213651</updated>
+    </task>
+    <task id="LOCAL-00033" summary="create 2entites for lazy">
+      <option name="closed" value="true" />
+      <created>1707876141681</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1707876141681</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change table name and column name" />
-    <MESSAGE value="update" />
     <MESSAGE value="get info" />
     <MESSAGE value="get one by one" />
     <MESSAGE value="delete" />
@@ -414,31 +443,33 @@
     <MESSAGE value="use HQL Update Claues" />
     <MESSAGE value="use HQL Delete Claues" />
     <MESSAGE value="use HQL Ineer join Claues" />
-    <MESSAGE value="use HQL orderby Claues" />
     <MESSAGE value="sql to hql p:" />
-    <option name="LAST_COMMIT_MESSAGE" value="sql to hql p:" />
+    <MESSAGE value="1st level caching" />
+    <MESSAGE value="use HQL orderby Claues" />
+    <MESSAGE value="create 2entites for lazy" />
+    <option name="LAST_COMMIT_MESSAGE" value="create 2entites for lazy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Hql.java</url>
-          <line>17</line>
+          <line>21</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Hql.java</url>
-          <line>43</line>
+          <line>47</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Hql.java</url>
-          <line>12</line>
+          <line>10</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Hql.java</url>
-          <line>103</line>
+          <line>107</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
